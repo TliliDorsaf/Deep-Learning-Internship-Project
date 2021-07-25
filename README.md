@@ -13,8 +13,8 @@ This is an image to summerize how the project is supposed to work a long with a 
 ![Test Image ](/block.JPG)
 
 Now let me explain how the code works!
-At first i started with a python script that would help me collect the images for the model. </br>
-I ended up taking 1300 images for each gesture beacause the more pictures i added the better the model was. </br>
+At first I started with a python script that would help me collect the images for the model. </br>
+I ended up taking 1300 images for each gesture beacause the more pictures I added the better the model was. </br>
 There are 5 gestures: </br>
 Rotate counterclockwise. </br>
 Rotate clockwise. </br>
