@@ -11,4 +11,4 @@ Here is a video recodring that specifies how everything works </br>
 
 
 
-![Test vid 1](/gesturepredict.MP4)
+
