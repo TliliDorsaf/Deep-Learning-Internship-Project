@@ -77,7 +77,7 @@ And then based on the gesture we performed an action on the MRI image. There are
         cv2.imshow("MRI image", rot)
 ```
 
-In the end, everything went smoothly just as we can see in the demonstration video.
+In the end, everything went smoothly just as we can see in the demonstration video. </br>
 Thank you for your time!
 
 
