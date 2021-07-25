@@ -3,7 +3,7 @@
 Hello and welcome to my work 
 
 
-![Test Image ](/software designs.png)
+![Test Image ](/software_designs.png)
 
 Here is a video recodring that specifies how everything works </br>
 
