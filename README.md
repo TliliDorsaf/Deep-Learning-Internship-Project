@@ -16,11 +16,11 @@ Now let me explain how the code works!
 At first I started with a python script that would help me collect the images for the model. </br>
 I ended up taking 1300 images for each gesture beacause the more pictures I added the better the model was. </br>
 There are 5 gestures: </br>
-Rotate counterclockwise. </br>
-Rotate clockwise. </br>
-Scroll. </br>
-Zoom in. </br>
-Zoom out. </br>
+Rotate counterclockwise </br>
+Rotate clockwise </br>
+Scroll </br>
+Zoom in </br>
+Zoom out </br>
 I also added an empty image so when there is no gesture it does nothing. </br>
 All the hand gestures are in the report AND as well as the video. </br>
 After capturing all the images I trained my model. </br>
@@ -36,7 +36,7 @@ CATEGORY_MAP = {
     "empty" : 5
 }
 ```
-After imprting the images and labeling them as well as performing one hot encoding on them. I compiled the model, fit it then saved it. </br>
+After importing the images and labeling them as well as performing one hot encoding on them, I compiled the model, fit it then saved it. </br>
 ```python
 model = def_model_param()
 model.compile(
