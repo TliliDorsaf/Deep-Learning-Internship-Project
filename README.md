@@ -53,7 +53,7 @@ model.save("MRI_gesture_cnn.h5")
 ```
 In the next step I tested the model and after that used it for to create the gesture-based tool to capture and predict hand gesture and perform actions on MRI images depending on the gesture. </br>
 
-First we needed a video capture and of course we used cv2, python's very own computer vision library also called OpenCV-python. </br>
+First I needed a video capture and of course I used cv2, python's very own computer vision library also called OpenCV-python. </br>
 
 ```python
 video = cv2.VideoCapture(0)
@@ -69,7 +69,7 @@ prediction = model.predict(np.array([img]))
 gesture_numeric = np.argmax(prediction[0])
 gesture_name = mapper(gesture_numeric)
 ```
-And then based on the gesture a gesture is performed on the MRI image. There are 5 gestures here is just one of them. </br>
+And then based on the gesture, an action is performed on the MRI image. There are 5 gestures here, is just one of them. </br>
 
 ```python
  if gesture_name == 'rotatecw':
