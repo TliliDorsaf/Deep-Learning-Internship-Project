@@ -60,8 +60,8 @@ video = cv2.VideoCapture(0)
 video.set(cv2.CAP_PROP_FRAME_WIDTH, 2000)
 video.set(cv2.CAP_PROP_FRAME_HEIGHT, 2000)
 ```
-We drew a rectangle in the video frame to better capture the hand gesture and for that you need to view the demonstration in the video. </br>
-we loaded the model of course and then we used it to predict the gesture.
+I drew a rectangle in the video frame to better capture the hand gesture and for that you need to view the demonstration in the video. </br>
+I loaded the model of course and then i used it to predict the gesture.
 
 ```python
 model = load_model("MRI_gesture_cnn.h5")
@@ -69,7 +69,7 @@ prediction = model.predict(np.array([img]))
 gesture_numeric = np.argmax(prediction[0])
 gesture_name = mapper(gesture_numeric)
 ```
-And then based on the gesture we performed an action on the MRI image. There are 5 gestures here is just one of them. </br>
+And then based on the gesture a gesture is performed on the MRI image. There are 5 gestures here is just one of them. </br>
 
 ```python
  if gesture_name == 'rotatecw':
