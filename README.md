@@ -8,7 +8,7 @@ Here is a video recording that specifies how everything works, the video explain
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rwNinT-MUtc/0.jpg)](https://www.youtube.com/watch?v=rwNinT-MUtc)
 
 
-This is an image to summerize how the project is supposed to work a long with a block diagram to make everything clearer from the start. </br>
+This is an image to summerize how the project is suppose to work along with a block diagram to make everything clearer from the start. </br>
 ![Test Image ](/software_designs.png)
 ![Test Image ](/block.JPG)
 
