@@ -3,9 +3,6 @@
 Hello and welcome to my work on the project for my summer internship for The Smart Bridge.</br>
 This is a deep learning project that uses hand gesture prediction to browse through and zoom or rotate through MRI images during surgery without risk of infection. </br>
 To know more about why this solution was proposed I advice you to read the project report. </br>
-Here is a video recording that specifies how everything works, the video explains the code AND has a demonstration of how the real-time gesture prediction and action worked in the end. If you want to dig deeper into how the code works continue reading. </br>
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rwNinT-MUtc/0.jpg)](https://www.youtube.com/watch?v=rwNinT-MUtc)
 
 
 This is an image to summerize how the project is suppose to work along with a block diagram to make everything clearer from the start. </br>
